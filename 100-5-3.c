@@ -1,13 +1,12 @@
-/*ÌâÄ¿£ºÊäÈëÈı¸öÕûÊıx,y,z£¬Çë°ÑÕâÈı¸öÊıÓÉĞ¡µ½´óÊä³ö¡£*/
-           //Ã°ÅİÅÅĞò 
+/*é¢˜ç›®ï¼šè¾“å…¥ä¸‰ä¸ªæ•´æ•°x,y,zï¼Œè¯·æŠŠè¿™ä¸‰ä¸ªæ•°ç”±å°åˆ°å¤§è¾“å‡ºã€‚*/
+           //å†’æ³¡æ’åº 
 #include <stdio.h>
 void bublesort(int a[],int n);
 int main(int argc, char *argv[])
 {
 	int amount;
-	
 	int i;
-//	int a[amount];//´ËÊ±amount²»ÄÜÎª±äÁ¿£» 
+//	int a[amount];//æ­¤æ—¶amountä¸èƒ½ä¸ºå˜é‡ï¼› 
 	printf("please input the amount:");
 	scanf("%d",&amount);
 	printf("please input the numbers:");
@@ -28,7 +27,7 @@ void bublesort(int a[],int n)
 	{
 		for(j=1;j<n;j++)
 		{
-			if(a[j-1]<a[j])//<ÊÇ½µĞò£¬>ÊÇÉıĞò¡£ 
+			if(a[j-1]<a[j])//<æ˜¯é™åºï¼Œ>æ˜¯å‡åºã€‚ 
 			{
 				k=a[j];a[j]=a[j-1];a[j-1]=k;
 			}
